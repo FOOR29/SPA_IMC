@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--META ETIQUETAS-->
+    <meta charset="UTF-8">
+    <meta name="description" content="calculadora de masa corporal">
+    <meta name="keywords" content="calculadora, imc, masa">
+    <meta name="sitedomain" content="https://github.com/FOOR29/SPA_IMC.git">
+    <meta name="organization" content="FOOR29">
+    <meta name="author" content="forlán antonio ordoñez bordon">
+    <meta name="designer" content="forlan ordoñez">
+    <meta name="copyright" content="© 2025 FOOR29. All rights reserved">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="15days">
+    <title>SPA IMC</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+    <main>
+            <form id="myForm">
+                <label for="peso">Introduce tu peso</label>
+                <input type="text" id="peso" placeholder="Kg" min="0">
+
+                <label for="estatura">Introduce tu estatura</label>
+                <input type="text" id="estatura" placeholder="Metros" min="0">
+
+                <input type="button" value="Calcular" id="button"> 
+            
+                <section id="resultado"></section>
+            </form>
+    </main>
+
+
+    <script src="./src/js/imc.js"></script>
+</body>
+</html>
