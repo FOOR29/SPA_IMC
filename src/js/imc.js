@@ -24,5 +24,5 @@ button.addEventListener('click', function () {
         message = 'Sobre peso, trote mijo';
     }
 
-    resultado.textContent = `Estas ${message} y tu IMC es ${Math.round(imc)}`
+    resultado.textContent = `${message} y tu IMC es ${Math.round(imc)}`
 })
