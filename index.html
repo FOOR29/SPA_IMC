@@ -25,16 +25,17 @@
     <main>
             <form id="myForm">
                 <label for="peso">Introduce tu peso</label>
-                <input type="text" id="peso" placeholder="Kg">
+                <input type="text" id="peso" placeholder="Kg" min="0">
 
                 <label for="estatura">Introduce tu estatura</label>
-                <input type="text" id="estatura" placeholder="Metros">
+                <input type="text" id="estatura" placeholder="Metros" min="0">
 
-                <input type="button" value="Calcular" id="button">
+                <input type="button" value="Calcular" id="button"> 
+            
+                <section id="resultado"></section>
             </form>
     </main>
 
-    <!-- <footer></footer> -->
 
     <script src="./src/js/imc.js"></script>
 </body>
