@@ -7,7 +7,7 @@ console.warn('adventencia')  //para advertencias
 let message = 'soy forlan'  //estas variables si pueden cambiar
 const tipoDeSangre = 'O+' //Esta vaina nunca cambia
 
-// alert('erdaaa')
+alert('erdaaa')
 // //camel case
 // forlanOrdoñez
 
@@ -17,9 +17,9 @@ const tipoDeSangre = 'O+' //Esta vaina nunca cambia
 //para pedir datos se usa promt
 let imc
 
-// let peso = prompt(message = 'ingresa tu peso')
-// let altura = prompt(message = 'ingresa tu altura')
+let peso = prompt(message = 'ingresa tu peso')
+let altura = prompt(message = 'ingresa tu altura')
 
-// imc = peso / (altura * altura)
+imc = peso / (altura * altura)
 
-// alert('tu imc es: ' + imc)
+alert('tu imc es: ' + imc)
